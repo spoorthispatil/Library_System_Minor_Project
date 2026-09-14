@@ -6,7 +6,7 @@ structures and algorithms rather than a production storage layer.
 ## How to run
 
 ```bash
-python main.py
+python menu_main.py
 ```
 
 This runs a full demo: seeding sample books/members, then exercising every
@@ -27,6 +27,7 @@ library_system/
 ├── dp_fines.py                 # 0/1 knapsack DP for optimal fine-saving return plans
 ├── library.py                   # Orchestrator class wiring everything together
 ├── main.py                       # CLI demo entry point
+├── menu_main.py                   # Menu driven system 
 └── README.md
 ```
 
